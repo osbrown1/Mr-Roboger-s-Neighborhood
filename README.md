@@ -47,7 +47,7 @@ _{The application takes a number from the user and returns a list of values from
 ## Setup/Installation Requirements
 
 * _Clone this repository to your desktop._
-* _Click on the HTML document_ 
+* _Open a new tab, drag the HTML document into the blank search bar and hit enter._ 
 
 
 ## Known Bugs
