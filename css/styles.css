@@ -5,8 +5,14 @@ body {
 button {
   color: rgb(17, 12, 24);
   background-color: chartreuse;
+  font-weight: bold;
 }
 
 h2 {
-  
+  font-style: italic;
+  background-color: rgb(235, 47, 104);
+  text-align: center;
+  color: rgb(25, 13, 198);
+  font-weight: bolder;
 }
+
