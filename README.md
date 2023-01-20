@@ -40,9 +40,9 @@ $$$$$$$
 ## Description
 
 _{The application takes a number from the user and returns a list of values from 0 to the user's inputted number with the following substitutions made within the returned list:
--For numbers that contain a 1, all digits are replaced with "Beep!"
--For numbers that contain a 2, all digits are replaced with "Boop!"
--For numbers that contain a 3, all digits are replaced with "Won't you be my neighbor?"}_
+* _For numbers that contain a 1, all digits are replaced with "Beep!"_
+* _For numbers that contain a 2, all digits are replaced with "Boop!"_
+* _For numbers that contain a 3, all digits are replaced with "Won't you be my neighbor?"}_
 
 ## Setup/Installation Requirements
 
