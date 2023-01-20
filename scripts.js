@@ -1,5 +1,5 @@
 // Business Logic
-function robogerInterpretation(num) {
+function createList(num) {
   let list = [];
   for (let i = 0; i <= num; i++) {
     if (i.toString().includes("3")) {
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
     e.preventDefault();
     let num = document.getElementById("numInput").value;
     let output = document.getElementById("output");
-    let list = robogerInterpretation(num);
+    let list = createList(num);
     output.innerHTML = list.join(", ");
   });
 });
