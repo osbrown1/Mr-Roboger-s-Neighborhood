@@ -1,7 +1,9 @@
-Describe: robogerInterpretation(num)
+Describe: robogerInterpretation()
 
-Test: "It should return an array of numbers from 0 to the user's inputted number"
-Code: robogerInterpretation(5);
-Expected Output: [0, 1, 2, 3, 4, 5]
+Test: "It should return an empty array"
+Code: 
+function robogerInterpretation(5);
+let list = [];
+Expected Output: []
 
 Test: "It should...
