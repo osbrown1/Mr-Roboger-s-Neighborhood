@@ -1,23 +1,22 @@
-Describe: robogerInterpretation()
+Describe: robogerInterpret()
 
 Test: "It should return an empty array"
 Code: 
-function robogerInterpretation(5);
 let list = [];
+robogerInterpret(5);
 Expected Output: []
 
 Test: "It should return 'Yay'"
 Code: 
- RI(num) {
-  let list = [];
-  for (let i = 0; i <= num; i++) {
-    if (i.toString().includes("3")) {
-      list.push("Yay");
-    }
-  }
-  return list;
-}
+let list = [];
+RI(num) 
 Expected Output: "Yay"
+
+Test: "It should return WYBMN if string includes 3, Boop if 2, Beep if 1, else the number."
+Code:
+let list = [];
+robogerInterpret(num);
+Expected Output: 0, Beep, Boop, Won't you be my neighbor?, 4
 
 
 
