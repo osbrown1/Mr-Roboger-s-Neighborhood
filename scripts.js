@@ -1,5 +1,5 @@
 // Business Logic
-function createList(num) {
+function robogerInterpretation(num) {
   let list = [];
   for (let i = 0; i <= num; i++) {
     if (i.toString().includes("3")) {
@@ -18,16 +18,13 @@ function createList(num) {
 
 // UI Logic
 
-function handleFormSubmission() {
-  event.preventDefault();
-  const 
-}
-
-const Roger = createList(passage);
-  document.getElementById("response").innerText = passage;
-  document.getElementById("Roger's-response").innerText = Roger;
-
-
-window.addEventListener("load", function() {
-  document.querySelector("form#interpret").addEventListener("submit", handleFormSubmission);
+document.addEventListener("DOMContentLoaded", function() {
+  let form = document.getElementById("form");
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    let num = document.getElementById("numInput").value;
+    let output = document.getElementById("output");
+    let list = robogerInterpretation(num);
+    output.innerHTML = list.join(", ");
+  });
 });

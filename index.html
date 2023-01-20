@@ -9,16 +9,12 @@
 <body>
   <div class="container">
     <h2>Mr. Roboger's Neighborhood</h2>
-    <form id="interpret">
-      <div class="form-group">
-        <p>Enter a number:</p>
-        <textarea id="text-passage" name="text-passage" class="form-control"></textarea>
-        <br>
-        <button type="submit" class="btn btn-success">Submit Survey</button>
-      </div>
+    <form id="form">
+      <label for="numInput">Enter a number:</label>
+      <input type="number" id="numInput">
+      <button type="submit">Submit</button>
     </form>
-    <br>
-    <p>Mr. Roboger's Response: <span id="response"></span></p>
+    <div id="output"></div>
 </body>
 </html>
 
