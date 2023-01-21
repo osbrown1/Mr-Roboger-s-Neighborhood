@@ -28,7 +28,7 @@ $$$$$$$
 
 #### By _**{Owen Brown}**_
 
-#### _{This is a web application that takes numerical user input and returns a pattern based on the given number.}_
+#### _{This is a web application that takes numerical user input and returns a pattern based on the given number. Discover what Mr. Roboger has been trying to tell you!}_
 
 ## Technologies Used
 
