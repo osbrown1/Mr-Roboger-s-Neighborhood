@@ -15,9 +15,7 @@ function robogerInterpret(num) {
   return list;
 }
 
-
 // UI Logic
-
 document.addEventListener("DOMContentLoaded", function() {
   let form = document.getElementById("form");
   form.addEventListener("submit", function(e) {
