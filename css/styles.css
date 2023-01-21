@@ -27,6 +27,10 @@ p1 {
   color: rgb(99, 0, 0);
 }
 
+p2 {
+  font-size: x-large;
+}
+
 label {
   font-size: xx-large;
 }
