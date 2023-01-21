@@ -4,15 +4,30 @@ body {
 
 button {
   color: rgb(17, 12, 24);
-  background-color: chartreuse;
+  background-color: rgb(9, 200, 32);
   font-weight: bold;
 }
 
-h2 {
+h1 {
   font-style: italic;
   background-color: rgb(235, 47, 104);
   text-align: center;
   color: rgb(25, 13, 198);
   font-weight: bolder;
+  font-size: xx-large;
+}
+
+p {
+  font-size: xx-large;
+  color: rgb(7, 7, 7);
+}
+
+p1 {
+  font-size: larger;
+  color: rgb(99, 0, 0);
+}
+
+label {
+  font-size: xx-large;
 }
 
