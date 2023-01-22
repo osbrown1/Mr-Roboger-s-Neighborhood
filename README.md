@@ -51,7 +51,7 @@ _{The application takes a number from the user and returns a list of values from
 
 ## Known Bugs
 
-* None
+* JS and CSS won't register when the html doc is dragged into an empty tab's url bar. This is due to the scripts.js and styles.css files being placed in their respective folders. Using a live server in vscode gets the webpage to register them but that doesn't fix the issue. So for the time being, the files remain outside their respective css and js folders. 
 
 ## License
 
